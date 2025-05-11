@@ -1,0 +1,17 @@
+{
+  "editor.formatOnSave": true,
+  "leetcode.defaultLanguage": "cpp",
+  "code-runner.runInTerminal": true,
+  "code-runner.executorMap": {
+    "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt < input.txt",
+    "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt < input.txt",
+    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+    "python": "python3 -u $fullFileName"
+  },
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "editor.tabSize": 4,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  }
+}
